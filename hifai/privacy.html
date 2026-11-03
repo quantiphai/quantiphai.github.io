@@ -12,7 +12,7 @@
     <img src="icon.png" alt="">
     <div>
       <h1>Privacy Policy</h1>
-      <p>HiFAi by QuantiphAi · Effective October 28, 2026</p>
+      <p>HiFAi by QuantiphAi · Updated November 3, 2026</p>
     </div>
   </header>
   <nav><a href="index.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
@@ -29,13 +29,13 @@
 
   <section>
     <h2>How ads are found (on your iPhone)</h2>
-    <p>After an episode downloads, HiFAi analyzes its audio on your iPhone to find inserted ads. To do this it:</p>
+    <p>After an episode downloads, HiFAi checks its audio on your iPhone to find inserted ads. To do this it:</p>
     <ul>
-      <li>makes an <strong>audio fingerprint</strong> of the episode (a compact summary of its sound, not the audio itself) to spot audio that repeats across episodes;</li>
-      <li>tells apart the <strong>voices</strong> in the episode (the podcast’s hosts and guests versus voices heard only briefly) using a speaker-recognition model that runs on your iPhone;</li>
-      <li><strong>transcribes</strong> short stretches with Apple’s on-device speech recognition, and asks HiFAi’s own <strong>AI checker</strong> (the open Qwen 3 model, running on your iPhone) whether a stretch is promoting something or is part of the show. It does not use Apple Intelligence.</li>
+      <li>makes an <strong>audio fingerprint</strong> of the episode (a compact summary of its sound, not the audio itself) to spot audio that repeats across the show&rsquo;s latest episodes;</li>
+      <li>downloads the episode <strong>two more times</strong>, as differently named podcast apps, and compares the copies: ad servers fill the ad breaks differently each time, so anything that isn&rsquo;t in the other copies is an ad. The extra copies are deleted right after;</li>
+      <li>checks your <strong>ad database</strong>: the ads you marked or answered &ldquo;Ad&rdquo;.</li>
     </ul>
-    <p>All of this happens on your iPhone. Episode audio, transcripts and voice analysis are never sent to us or anyone else. The AI checker’s model file (about 0.9 GB) is downloaded once from Hugging Face, which sees your internet address like any website does; nothing about you or what you listen to is sent with it.</p>
+    <p>All of this happens on your iPhone. HiFAi uses no AI, voice recognition or speech transcription, and episode audio is never sent to us or anyone else.</p>
   </section>
 
   <section>
@@ -58,7 +58,7 @@
 
   <section>
     <h2>Podcasts, search and backup</h2>
-    <p>Podcast feeds, episodes and artwork are downloaded directly from the podcasts’ own servers, which see your internet address like any website does. Search uses Apple’s public podcast directory. To make it easy to get your shows back after reinstalling, the list of podcasts you follow is saved in your iCloud Keychain, under Apple’s privacy terms; we never receive it.</p>
+    <p>Podcast feeds, episodes and artwork (including the two extra copies used to find ads) are downloaded directly from the podcasts’ own servers, which see your internet address like any website does. Search uses Apple’s public podcast directory. To make it easy to get your shows back after reinstalling, the list of podcasts you follow is saved in your iCloud Keychain, under Apple’s privacy terms; we never receive it.</p>
   </section>
 
   <section>
